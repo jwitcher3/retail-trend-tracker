@@ -100,9 +100,11 @@ export default function RetailTrendDashboard() {
         color: isDark ? "#fff" : "#111",
         minHeight: "100vh",
         display: "flex",
-        justifyContent: "center",
+        flexDirection: "column", // ✅ stack content + footer vertically
       }}
     >
+         {/* Main Content Wrapper */}
+      <div style={{ flex: 1, display: "flex", justifyContent: "center", padding: "24px" }}>
       <div style={{ width: "100%", maxWidth: "1400px" }}>
         {/* 🏷️ Header */}
         <h1 style={{ fontSize: "28px", fontWeight: "bold", marginBottom: "16px" }}>
@@ -221,20 +223,24 @@ export default function RetailTrendDashboard() {
           />
         </div>
       </div>
-      <footer style={{
-  marginTop: "40px",
-  paddingTop: "20px",
-  borderTop: `1px solid ${isDark ? "#444" : "#ccc"}`,
-  fontSize: "0.85rem",
-  color: isDark ? "#aaa" : "#444",
-  textAlign: "center"
-}}>
-  © {new Date().getFullYear()} James Witcher · <a href="https://github.com/jwitcher3"
-   target="_blank"
-    rel="noopener noreferrer"
-     style={{ color: isDark ? "#aaa" : "#444" }}
+    </div>
+    <footer
+      style={{
+        padding: "20px",
+        borderTop: `1px solid ${isDark ? "#444" : "#ccc"}`,
+        fontSize: "0.85rem",
+        color: isDark ? "#aaa" : "#444",
+        textAlign: "center",
+      }}
     >
-      GitHub
+      © {new Date().getFullYear()} James Witcher ·{" "}
+      <a
+        href="https://github.com/jwitcher3"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: isDark ? "#aaa" : "#444" }}
+      >
+        GitHub
       </a>{" "}
       ·{" "}
       <a
@@ -245,10 +251,7 @@ export default function RetailTrendDashboard() {
       >
         LinkedIn
       </a>
-</footer>
-    </div>
-  );
+    </footer>
+  </div>
+);
 }
-
-
-// 🔧 End of RetailTrendDashboard component
