@@ -1,12 +1,34 @@
-# React + Vite
+# Retail Trend Tracker 📈
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, interactive dashboard to visualize Google Trends data across sneaker and fashion segments. Built using React, Vite, and Plotly.js.
 
-Currently, two official plugins are available:
+## 🔍 Features
+- Toggle between Sneaker / Fashion and US / Canada data
+- Light/Dark mode
+- Top movers panel with arrows + % or Δ change toggle
+- Interactive time series chart (Plotly)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
+![Retail Trend Tracker Screenshot](screenshot.png)  
+> *Live demo coming soon*
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
+- React (Vite)
+- Plotly.js
+- Papaparse (CSV parsing)
+- JavaScript / CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Running Locally
+
+## ✍️ Author
+Made with ❤️ by James Witcher
+[GitHub: jwitcher3](https://github.com/jwitcher3)  
+[LinkedIn](https://www.https://www.linkedin.com/in/james-witcher/)
+
+Hi! I'm **James Witcher**, a data scientist with experience in consumer/marketing analytics, retail trends, and dashboard development.  
+This project is part of my personal portfolio to explore frontend tools for data storytelling.
+
+```bash
+npm install
+npm run dev
+
