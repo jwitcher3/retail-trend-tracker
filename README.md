@@ -8,9 +8,11 @@ A lightweight, interactive dashboard to visualize Google Trends data across snea
 - Top movers panel with arrows + % or Δ change toggle
 - Interactive time series chart (Plotly)
 
+
 ## 🚀 Demo
-![Retail Trend Tracker Screenshot](screenshot.png)  
-> *Live demo coming soon*
+![Retail Trend Tracker Screenshot](public/screenshot_v1.png)
+Live: [retail-trend-tracker.vercel.app](https:https://retail-trend-tracker.vercel.app/)
+
 
 ## 📦 Tech Stack
 - React (Vite)
