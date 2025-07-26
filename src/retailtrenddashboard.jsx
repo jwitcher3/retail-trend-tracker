@@ -221,6 +221,31 @@ export default function RetailTrendDashboard() {
           />
         </div>
       </div>
+      <footer style={{
+  marginTop: "40px",
+  paddingTop: "20px",
+  borderTop: `1px solid ${isDark ? "#444" : "#ccc"}`,
+  fontSize: "0.85rem",
+  color: isDark ? "#aaa" : "#444",
+  textAlign: "center"
+}}>
+  © {new Date().getFullYear()} James Witcher · <a href="https://github.com/jwitcher3"
+   target="_blank"
+    rel="noopener noreferrer"
+     style={{ color: isDark ? "#aaa" : "#444" }}
+    >
+      GitHub
+      </a>{" "}
+      ·{" "}
+      <a
+        href="https://www.linkedin.com/in/james-witcher/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: isDark ? "#aaa" : "#444" }}
+      >
+        LinkedIn
+      </a>
+</footer>
     </div>
   );
 }
