@@ -11,7 +11,7 @@ A lightweight, interactive dashboard to visualize Google Trends data across snea
 
 ## 🚀 Demo
 ![Retail Trend Tracker Screenshot](public/screenshot_v1.png)
-Live: [retail-trend-tracker.vercel.app](https:https://retail-trend-tracker.vercel.app/)
+Live: [retail-trend-tracker.vercel.app](https://retail-trend-tracker.vercel.app/)
 
 
 ## 📦 Tech Stack
