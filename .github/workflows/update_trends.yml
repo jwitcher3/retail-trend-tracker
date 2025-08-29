@@ -39,3 +39,9 @@ jobs:
           git add trends.csv
           git commit -m "Auto-update trends.csv" || echo "No changes to commit"
           git push
+
+      - name: Trigger Vercel Deploy Hook
+        run: |
+          curl -X POST "$VERCEL_DEPLOY_HOOK_URL"
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
